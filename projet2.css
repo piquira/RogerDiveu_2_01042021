@@ -124,11 +124,13 @@ header {padding:0px 20px 0px 20px;
                          
                 .texte_fig{margin: 10px 10px 5px 10px;}
                          
-                        .img_hotel{border-radius: 10px 10px 0px 0px;
+                .img_hotel{border-radius: 10px 10px 0px 0px;
                         width: 220px; height: 90px;
                         object-fit: cover;}
+
+                .figure_cliquable{color:black;}
                          
-                                .afficher{padding-left: 30px;}
+        .afficher{padding-left: 30px;}
                                 
          
 #contenant_2{background-color: #F2F2F2;
