@@ -62,29 +62,35 @@ header {padding:0px 20px 0px 20px;
                         border: solid #F2F2F2 1px;
                         height: 30px;}
 
-.btn_filtres{display:flex;
-        align-items: baseline;
-        margin-bottom:10px;}
+                        .btn_filtres{display:flex;
+                                align-items: baseline;
+                                margin-bottom:10px;}
     
         .btn_picto{ background-color: #DEEBFF;
-        border-radius:20px;
-        padding: 7px;
+        border-radius:40px;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
         display: flex;
         align-items: center;
-        position:relative;  right: -7px;}
+        position:absolute;}
     
-                .btn_filtre{padding:5px;
-                border-radius: 5px 15px 15px 5px;
+                .btn_filtre{height: 40px;;
+                        position:relative;      
+                border-radius: 20px;
                 border: 2px solid #F2F2F2;
                 align-items: center;
                 display: flex;
                 background-color: white;
-                height: 25px;
-                margin-right: 20px;}
+                padding-left: 50px;
+                padding-right:20px ;
+                margin-right: 20px;
+        padding-left:50px;
+padding-right: 50px;}
 
-                        .btn_famille{display:flex;}
+.filtre{position:relative;}                        
 
-                        .btn_romantique{display:flex;}
+                        
  
 .exclamation {display:flex;
             align-items: baseline;}
