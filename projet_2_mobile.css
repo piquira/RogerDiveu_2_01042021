@@ -1,51 +1,43 @@
 /* ecran mobile entre 358à 414 px */
 
-body{max-width: 699px;min-width: 300px;}
+body{max-width: 750px;min-width: 290px;}
 
-h1{font-size: 1.7em;width: 300px;}
+h1{font-size: 1.7em;}
 
-h3{width: 100%;}
-
-h4{width: 100px;}
-
-p{font-size: 1.4em;
-    width: auto;}
+p{font-size: 1.4em;}
 
 .logo{display: flex;
     justify-content: space-between;
-    align-items: center;
-    }
+    align-items: center;}
 
 #nav{display:none;}
   
 #nav_mobile{display:initial;}
 
-.navbar_mobile{display:flex;
-    justify-content:start;
-    height: 40px;
-    }
+.navbar_mobile{display: flex;
+    justify-content: space-between;
+    align-items: center;}
 
 .navbar_mobile ul{list-style-type: none;
     display: flex;
     align-items: center;
-padding: 0px;}
-
-.navbar_mobile li{padding:20px 70px 20px 0px;}
+    padding: 0px;}
 
 .odre1_nav{order:1;}    
-.odre2_nav{order:2;}
+.odre2_nav{order:2;
+        padding-right: 30px;}
 .odre3_nav{order:3;}
 .odre4_nav{order:4;}
 
 .liseret {display:none}
 
 .liseret_b{border-bottom: #0065FC 1px solid;   /* liseret  mobile bleu */
-        padding:10px;
-    padding: 10px 60px 10px 10px;}
+        padding-right: 100px;
+        padding-bottom: 10px;}
     
 .liseret_n{border-bottom: #F2F2F2 2px solid;    /* liseret mobile gris */
-        padding:10px;
-        padding: 50px 100px 10px 0px;}
+        padding-right: 140px;
+        padding-bottom: 10px;}
 
 header {padding:0px;
 margin:0px;}
@@ -61,17 +53,7 @@ margin:0px;}
 .btn_filtres{display:flex;
     flex-wrap: wrap;}
 
-.btn_filtre{display:flex;
-    padding:5px 20px 5px 20px;
-margin-right: 20px;}
-
-.btn_mobile{width: 200%;}
-
-.btn_famille{display:flex;
-margin-right:20px;}
-
-.btn_romantique{display:flex;
-    margin:10px 210px 10px 0px;}
+.btn_filtre{padding:5px 20px 5px 50px;}
 
 .exclamation {margin:20px 0px 20px 0px;}
 
@@ -81,55 +63,45 @@ margin-right:20px;}
 
 .titre_hebergement{padding-left: 20px;}
 
-#contenant_1{ /* contenant hebergement */
-    background-color: white;
-    margin:0px; margin-bottom: 0px;    /* Marge extérieure */
-                            
-    order:2}
-
-
-#contenant_1_2{display: flex;    /* contenant image hebergement */
-            flex-direction: column;
-            margin:0px;
-       }
+#contenant_1{background-color: white;             /* contenant image hebergement */
+        display: flex;    
+        flex-direction: column;
+        margin:0px;
+        padding-left:0px;
+        order:2;
+        width: auto;}
   
-.figure_hotel1{margin:0px 14px 10px 14px;}
+        .figure_hotel1{width: auto;}
 
-.img_hotel{width: 320px;}
+        .img_hotel{width: 20rem;}
 
 .afficher{padding-left: 20px;}
 
 #contenant_2{display: flex;
     flex-direction: column;
-    
+    width: auto;
     order:1;
-    margin:0px; margin-bottom: 0px;}
+    margin:0px;}
 
-.populaire_fleche{width: 330px;
-margin:0px 20px 0px 15px;}
+.populaire_fleche{margin:0px 20px 0px 15px;}
 
-.figure_populaire{margin:0px 14px 10px 14px;}
 
-.fig_populaire{}
-   
-.activite{display:flex;
-    flex-direction: column;
-    margin-bottom: 0px;}
+.activite{flex-direction: column;}
 
-.contenant_3_1{display: flex; 
-    flex-direction: column;}
+.contenant_3{width: auto;}
 
-.figure_activite{
+.contenant_3_1{width: auto;}
+
+.figure_activite{width: auto;
     margin:10px 0px 10px 0px;}  
 
-.figure_activite_1{
+.figure_activite_1{width: auto;
     margin:10px 0px 10px 0px;} 
 
-.img_activite{width: 320px; height: 90px;
-    border-radius: 13px 13px 0px 0px;
-padding-right: 0%;}
+.img_activite{width: 20rem; height: 90px;
+    border-radius: 13px 13px 0px 0px;}
 
-.img_activite_1{width:320px; height: 90px;
+.img_activite_1{width:20rem; height: 90px;
     border-radius: 13px 13px 0px 0px;}
 
 footer{width: auto;
@@ -141,15 +113,4 @@ footer{width: auto;
     margin-left: 0px;
     width: auto;}
 
-#contenant_4_1{
-   height: 118px;
-   width: 370px;}
-
-#contenant_4_3{
-    height: 118px;
-    width: 370px;}
-
-#contenant_4_2{
-    height: 118px;
-    width: 370px;}
 

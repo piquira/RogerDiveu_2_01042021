@@ -23,10 +23,9 @@ a{text-decoration: none;}   /* pas de liseret sous  les liens */
      padding:0px 20px 0px 20px;}
 
         .navbar ul{list-style-type: none;
-    display: flex; 
-    align-items: center;}
+    display: inline-flex; }
 
-                .navbar li{padding: 20px;}
+        .navbar li{padding: 30px;}
 
 
 header {padding:0px 20px 0px 20px;
