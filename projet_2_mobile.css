@@ -14,7 +14,7 @@ p{font-size: 1.4em;
 .logo{display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 290px;}
+    }
 
 #nav{display:none;}
   
@@ -84,14 +84,14 @@ margin-right:20px;}
 #contenant_1{ /* contenant hebergement */
     background-color: white;
     margin:0px; margin-bottom: 0px;    /* Marge extérieure */
-    width: 359px;                         
+                            
     order:2}
 
 
 #contenant_1_2{display: flex;    /* contenant image hebergement */
             flex-direction: column;
             margin:0px;
-        width: auto;}
+       }
   
 .figure_hotel1{margin:0px 14px 10px 14px;}
 
@@ -101,7 +101,7 @@ margin-right:20px;}
 
 #contenant_2{display: flex;
     flex-direction: column;
-    width: 359px;
+    
     order:1;
     margin:0px; margin-bottom: 0px;}
 
@@ -110,7 +110,7 @@ margin:0px 20px 0px 15px;}
 
 .figure_populaire{margin:0px 14px 10px 14px;}
 
-.fig_populaire{width: 170px;}
+.fig_populaire{}
    
 .activite{display:flex;
     flex-direction: column;
@@ -119,10 +119,10 @@ margin:0px 20px 0px 15px;}
 .contenant_3_1{display: flex; 
     flex-direction: column;}
 
-.figure_activite{width:320px;
+.figure_activite{
     margin:10px 0px 10px 0px;}  
 
-.figure_activite_1{width:320px;
+.figure_activite_1{
     margin:10px 0px 10px 0px;} 
 
 .img_activite{width: 320px; height: 90px;
