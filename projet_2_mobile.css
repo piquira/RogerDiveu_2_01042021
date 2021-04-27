@@ -81,7 +81,8 @@ margin:0px;}
     flex-direction: column;
     width: auto;
     order:1;
-    margin:0px;}
+    margin:0px;
+    border-radius:0px;}
 
 .populaire_fleche{margin:0px 20px 0px 15px;}
 
