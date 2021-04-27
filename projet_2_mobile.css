@@ -1,6 +1,6 @@
 /* ecran mobile entre 358à 414 px */
 
-body{max-width: 750px;min-width: 290px;}
+body{max-width: 499px;min-width: 290px;}
 
 h1{font-size: 1.7em;}
 
@@ -69,7 +69,7 @@ margin:0px;}
         margin:0px;
         padding-left:0px;
         order:2;
-        width: auto;}
+        }
   
         .figure_hotel1{width: auto;}
 
@@ -99,10 +99,10 @@ margin:0px;}
     margin:10px 0px 10px 0px;} 
 
 .img_activite{width: 20rem; height: 90px;
-    border-radius: 13px 13px 0px 0px;}
+    ;}
 
 .img_activite_1{width:20rem; height: 90px;
-    border-radius: 13px 13px 0px 0px;}
+    }
 
 footer{width: auto;
     background-color: #F2F2F2;
