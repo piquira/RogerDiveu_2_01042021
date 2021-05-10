@@ -62,7 +62,7 @@ p{
 }
 
 .liseret_b{
-    border-bottom: #0065FC 1px solid;   /* liseret  mobile bleu */
+    border-bottom: #0065FC 2px solid;   /* liseret  mobile bleu */
         padding-right: 55px;
         padding-bottom: 10px;
         display:flex;
