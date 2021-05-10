@@ -1,6 +1,5 @@
 .bloc_page{
         max-width:1270px;
-        min-width: 600px;
         margin:auto;
 }
 
@@ -8,8 +7,7 @@ body{
         font-family: Raleway, 'Times New Roman', Times, serif;
     color: black;
     font-size: 0.8rem;
-        max-width: 100%;
-        
+    max-width: 100%;  
 }
 
 .bleu{
@@ -24,19 +22,31 @@ body{
 em{
         color: #0065FC;
 }              /* Apparence pictogramme bleu */
+i {
+        color:rgb(214, 214, 214)
+}
+
+/* Apparence au survol des liens */
 .green:hover{
         color: green;
-}  /* Apparence au survol des liens */
+}  
+
+/* pas de liseret sous  les liens */
 a{
         text-decoration: none;
-}   /* pas de liseret sous  les liens */
+}
+
+.noir:hover{
+        color:#0065FC;
+}
+
 .texte_fig{
         margin: 10px 10px 5px 10px;
 }  /* mise en forme texte figure */
 
 
 .liseret{
-        border-top: #0065FC 1px solid;    /* liseret haut de page */
+        border-top: #0065FC 3px solid;    /* liseret haut de page */
 	    padding:25px;
         }
 
@@ -196,7 +206,10 @@ header {
         text-align: justify;
                         }
                          
-                .texte_fig{margin: 10px 10px 5px 10px;}
+                .texte_fig{
+                        margin: 10px 10px 5px 10px;
+                        padding:10px;
+                }
                          
                 .img_hotel{border-radius: 10px 10px 0px 0px;
                         width: 220px; height: 90px;
