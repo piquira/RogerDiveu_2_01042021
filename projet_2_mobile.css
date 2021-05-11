@@ -49,12 +49,17 @@ p{
 .odre3_nav{
     order:3;
     display:flex;
-    margin-left: 10px;
+    border-bottom: #0065FC 2px solid;
+    padding-bottom: 10px;
+    width: 50%;
 }
 
 .odre4_nav{
     order:4;
     display:flex;
+    border-bottom: #F2F2F2 2px solid;
+    padding-bottom: 10px;
+    width: 50%;
 }
 
 .liseret {
@@ -62,17 +67,14 @@ p{
 }
 
 .liseret_b{
-    border-bottom: #0065FC 2px solid;   /* liseret  mobile bleu */
-        padding-right: 55px;
+      /* liseret  mobile bleu */
+        padding-left: 20px;
         padding-bottom: 10px;
-        display:flex;
     }
     
 .liseret_n{
-    border-bottom: #F2F2F2 2px solid;    /* liseret mobile gris */
-        padding-right: 100px;
-        padding-bottom: 10px;
-        display:flex;
+    padding-left: 55px;
+    
     }
 
 header {
