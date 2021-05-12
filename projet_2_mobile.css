@@ -101,6 +101,10 @@ margin:0px;
         width: 40px;
     }
 
+.filtre_titre{
+    padding: 20px 300px 20px 0px;
+}
+
 .btn_filtres{
     display:flex;
     flex-wrap: wrap;
